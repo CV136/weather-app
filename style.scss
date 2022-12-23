@@ -1,0 +1,36 @@
+body {
+    color: #ffb366; //fec; //#fff7e6
+    //background-color: #cce6ff;
+    background-image: linear-gradient(#e6eeff, #66b3ff);
+}
+
+$divcolor: rgba(0,0,179, 0.4);
+
+header {
+    text-align: center;
+}
+
+main {
+    justify-content: center;
+}
+
+.daydiv {
+    background-color: $divcolor;
+    border-radius: 15em;
+    box-sizing: border-box;
+    flex-flow: column wrap;
+    width: 70%;
+    margin: 10%;
+    padding: 2%;
+}
+
+/*
+body in some nuance of blue (gradient?)
+divs in darker blue, rounded corners, slight transparency effect
+color white
+police?
+it's primarily an app so no need for hover effects
+flex column
+
+
+*/
